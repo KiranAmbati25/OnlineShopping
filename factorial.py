@@ -1,0 +1,25 @@
+# def fact(n):
+#     if n==0:
+#         return 1
+#     else:
+#         return n*fact(n-1)
+# a=50
+# print(fact(a))
+
+def fact(n):
+    fact=1
+    i=0
+    while i<n:
+        fact=fact*(i+1)
+        i+=1
+    return fact
+a=5
+print(fact(a))
+
+def facto(n):
+    fact=1
+    for i in range(n):
+        fact=fact*(i+1)
+    return fact
+b=6
+print(facto(b))
