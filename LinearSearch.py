@@ -9,6 +9,7 @@ def ls(a,key):
         if a[i]==key:                               #'''TIME COMPLEXITY --> O(n)'''
             return i                               # '''SPACE COMPLEXITY --> O(1)'''
     return -1
+b='this is the edited line(added)'
 a=[12,34,56,78,90]
 key=12
 print(ls(a,key))
